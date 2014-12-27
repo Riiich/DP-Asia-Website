@@ -1,0 +1,722 @@
+
+#mainContent p{
+line-height: 20px;
+}
+#subheader{
+font-size: 22px;
+font-style: italic;
+color: #666;
+}
+#mainBody{
+margin: 0 auto;
+width: 970px;
+}
+#nav{
+}
+#layoutTopBg{
+background: url('/images/bg_top.gif') top left no-repeat;
+width: 970px;
+padding: 45px 0 0 0;
+}
+#layoutMidBg{
+background: url('/images/bg_mid.gif') top left repeat-y;
+}
+#layoutInner{
+padding: 0 36px 0 33px;
+width: 902px;
+margin: -12px 0 0 0;
+position: relative;
+z-index: 100;
+}
+#header
+{
+	position: relative;
+	z-index: 997;
+	width: 902px;
+	height: 122px;
+	
+}
+.special_offer{
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:25px;
+line-height:25px;
+margin:0;
+padding:0;
+}
+.special_offer i{
+color:#666666;
+font-family:Arial,Helvetica,sans-serif;
+font-size:18px;
+}
+#search
+{
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	font-size: 11px;
+	z-index: 1000;
+
+}
+#search input.searchField
+{
+	background-color: #959595;
+	border: 1px solid #464646;
+	
+	width: 100px;
+}
+#search input.submit
+{
+	color: #ffffff;
+	border: 0;
+	background-color: transparent;
+	cursor:pointer;
+	font-size: 11px;
+}
+#logo{
+padding: 0 0 0 38px;
+float: left;
+}
+#footerBot{
+background: url('/images/bg_bot.gif') top left no-repeat;
+width: 970px;
+height: 58px;
+}
+#topNav{
+float: right;
+padding: 0px 41px 0 0;
+}
+#topNav ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+color: #666;
+
+}
+#topNav ul li{
+display: inline;
+}
+#navBar{
+margin: 0px 0 0 0;
+height: 26px;
+width: 100%;
+background: url('/images/bg_nav_bar.gif') top left repeat-x;
+padding: 4px 0 0 0;
+position: absolute;
+bottom: 0;
+z-index: 998;
+}
+#rightNav{
+	float: right;
+	margin: 0 57px 0 0;
+}
+#rightNav ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#rightNav ul li{
+display: block;
+float: left;
+margin: 0 0px 0 12px;
+
+}
+#rightNav ul li a.current span{
+background: url('/images/bg_topnav_left_curr.gif') top left no-repeat;
+}
+#rightNav ul li a span{
+background: url('/images/bg_topnav_left.gif') top left no-repeat;
+display: block;
+float: left;
+height: 31px;
+width: auto;
+padding: 0 4px 0 4px;
+}
+#rightNav ul li a.current{
+background: url('/images/bg_topnav_right_curr.gif') top right no-repeat;
+}
+#rightNav ul li a{
+background: url('/images/bg_topnav_right.gif') top right no-repeat;
+display: block;
+float: left;
+width: auto;
+height: 31px;
+}
+#rightNav ul li a.current b{
+background: url('/images/bg_topnav_mid_curr.gif') top left repeat-x;
+}
+#rightNav ul li a b{
+background: url('/images/bg_topnav_mid.gif') top left repeat-x;
+padding: 8px 15px 0 15px;
+height: 23px;
+display: block;
+float: left;
+font-size: 14px;
+font-weight: bold;
+cursor:pointer;
+}
+ul#nav{
+margin: 0 0 0 31px;
+padding: 0;
+list-style-type: none;
+}
+ul#nav li{
+display: block;
+float: left;
+margin: 0 16px 0 0;
+position: relative;
+z-index: 999;
+cursor:pointer;
+font-size:13px;
+}
+ul#nav li span b
+{
+	font-size: 13px;
+}
+ul#nav li a:hover span
+{
+	background: url('/images/bg_nav_left_over.gif') top left no-repeat;
+	color: #333333;
+}
+
+ul#nav li a:hover
+{
+	background: #CDCDCD url('/images/bg_nav_right_over.gif') top right no-repeat;
+}
+
+ul#nav li a.current span{
+background: url('/images/bg_nav_left_curr.gif') top left no-repeat;
+width: auto;
+padding: 0 5px 0 5px;
+}
+ul#nav li a span{
+display: block;
+float: left;
+height: 26px;
+padding: 0 5px;
+}
+ul#nav li a.current{
+background: url('/images/bg_nav_right_curr.gif') top right no-repeat;
+width: auto;
+}
+ul#nav li a{
+display: block;
+float: left;
+font: bold 12px #ffffff;
+height: 26px;
+
+}
+ul#nav li a.current b{
+background-color: #ffffff;
+}
+ul#nav li a b{
+padding: 3px 0px 0 0;
+height: 23px;
+display: block;
+float: left;
+cursor: pointer;
+}
+ul#nav li ul
+{
+display: none;
+position: absolute;	
+top: 26px;
+left: -13px;
+margin: 0;
+/*width: 236px;*/
+padding: 0;
+
+}
+ul#nav li ul.over
+{
+	display: block;
+	z-index:1000;
+}
+ul#nav li ul li
+{
+	
+background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_shadow_left.png) repeat-y scroll left top;
+	padding: 0 0px 0 13px;
+	float: none;
+	margin: 0;
+}
+ul#nav li ul li a
+{
+	background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_shadow_right.png) repeat-y scroll right top;
+	padding: 0 13px 0px 0px;
+	float: none;
+
+}
+ul#nav li ul li a:hover
+{
+	background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_shadow_right.png) repeat-y scroll right top;
+}
+ul#nav li ul li a span
+{
+	background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_subnav.png) repeat scroll center top;
+	border-bottom: 1px solid #194668;
+	float: none;
+}
+ul#nav li ul li a:hover span
+{
+	background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_subnav.png) repeat scroll center top;
+}
+ul#nav li ul li.lastLi a span
+{
+	border: 0;
+}
+ul#nav li ul li a span b
+{
+	padding: 5px;
+	/*width: 200px;*/
+	font-weight: normal;
+	float: none;
+	
+}
+ul#nav li ul li.lastLi a span b
+{
+	/*width: 190px;*/
+	height: 20px;
+	
+}
+ul#nav li ul li.lastLi
+{
+	background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_subnav_last_left.png) no-repeat scroll left top;
+	padding: 0 0px 0 18px;
+	height: 20px;
+}
+ul#nav li ul li.lastLi a
+{
+	background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_subnav_last_right.png) no-repeat scroll right top;
+	padding: 0 18px 0px 0px;
+	height: 20px;
+
+}
+ul#nav li ul li.lastLi a span
+{
+	background:transparent url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/images/bg_subnav_last_bot.png) repeat-x scroll center top;
+	border-bottom: 0;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+ul#nav li ul li a:link span
+{
+	color: #BEBEFF;
+
+}
+ul#nav li ul li a:visited span
+{
+	color: #BEBEFF;
+
+}
+ul#nav li ul li a:hover span
+{
+	color: #FFFFFF;
+
+}
+ul#nav li ul li a:active span
+{
+	color: #BEBEFF;
+
+}
+#ctl00_mainContentHolder{
+/*background: url('/images/bg_content.jpg') no-repeat top right;*/
+width: 899px;
+padding: 0 0 48px 0;
+}
+#ctl00_mainContent{
+width: 610px;
+float: left;
+margin: 35px 0 0 0px;
+padding: 0 0 0 36px;
+}
+#ctl00_rightCol{
+float: left;
+margin: 270px 0 0 43px;
+}
+.fullWidth {
+width:899px;
+}
+
+.wideBoxTop
+{
+	width: 612px;
+	height: 9px;
+	background: url('/images/bg_widebox_top.gif') no-repeat bottom left;
+}
+.wideBoxMid
+{
+	width: 612px;
+	background: url('/images/bg_widebox_mid.gif') repeat-y bottom left;
+	padding: 8px;
+	font-size: 11px;
+	
+}
+#mainContent .wideBoxMid p
+{
+	line-height:normal;
+	margin: 0;
+}
+.wideBoxBot
+{
+	width: 612px;
+	height: 9px;
+	background: url('/images/bg_widebox_bot.gif') no-repeat top left;
+}
+.wideBoxEvent
+{
+	width: 303px;
+	float: left;
+	margin: 0 0 0 19px;
+}
+.wideBoxHeader
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin: 36px 0 5px 0;
+}
+.wideBoxEventTime
+{
+	width: 125px;	
+	float: left;
+	margin: 40px 0 0 0;
+}
+.eventImg
+{
+	float: left;
+}
+#footer{
+background-color: #959595;
+width: 829px;
+padding: 15px 36px 20px 36px;
+}
+#footer ul{
+	font-size: 10px;
+list-style-type: none;
+margin: 0;
+line-height: 12px;
+padding: 0;
+}
+#footer ul li ul{
+	display: inline;
+}
+#footer ul li span{
+width: 80px;
+display: block;
+float: left;
+}
+#footer ul li ul li a{
+padding: 0 3px 0 3px;
+color: #ffffff;
+font-weight: normal;
+}
+#footer ul li{
+display: inline;
+color: #ffffff;
+font-weight: bold;
+}
+#footer ul li a:link{
+color: #ffffff;
+text-decoration: none;
+}
+#footer ul li a:visited{
+color: #ffffff;
+text-decoration: none;
+}
+#footer ul li a:hover{
+color: #34609B;
+text-decoration: underline;
+}
+#footer ul li a:active{
+color: #ffffff;
+text-decoration: none;
+}
+ul#nav li a:link {
+color: #E6E6E6;
+text-decoration: none;
+}
+ul#nav li a:visited {
+color: #E6E6E6;
+text-decoration: none;
+}
+ul#nav li a:hover {
+color: #E6E6E6;
+text-decoration: none;
+}
+ul#nav li a:active {
+color: #E6E6E6;
+text-decoration: none;
+}
+ul#nav li a.current:link {
+color: #333333;
+}
+ul#nav li a.current:visited {
+color: #333333;
+}
+ul#nav li a.current:hover {
+color: #333333;
+}
+ul#nav li a.current:active {
+color: #333333;
+}
+#rightNav ul li a.current:link
+{
+	color: #E6E6E6;
+}
+#rightNav ul li a.current:visited
+{
+	color: #E6E6E6;
+}
+#rightNav ul li a.current:hover
+{
+	color: #E6E6E6;
+}
+#rightNav ul li a.current:active
+{
+	color: #E6E6E6;
+}
+#topNav a{
+padding: 0 3px 0 3px;
+}
+#topNav a:link {
+color: #666;
+text-decoration: none;
+}
+#topNav a:visited {
+color: #666;
+text-decoration: none;
+}
+#topNav a:hover {
+color: #666;
+text-decoration: underline;
+}
+#topNav a:active {
+color: #666;
+text-decoration: none;
+}
+#nav a:link {
+color: black;
+}
+#nav a:visited {
+color: black;
+}
+#nav a:hover {
+color: black;
+}
+#nav a:active {
+color: black;
+}
+
+#footer a:link {
+text-decoration: none;
+}
+#footer a:visited {
+text-decoration: none;
+}
+#footer a:hover {
+text-decoration: underline;
+}
+#footer a:active {
+text-decoration: none;
+}
+#fadeEvents{
+width: 900px;
+position:relative;
+height:225px;
+margin: -57px 0 0 -36px;
+}
+a:link
+{
+	color: #F93C3C;
+}
+a:visited
+{
+	color: #F93C3C;
+}
+a:hover
+{
+	color: #F93C3C;
+}
+a:active
+{
+	color: #F93C3C;
+}
+.fadeEvent
+{
+	width: 860px;
+	height:225px;
+	padding: 20px 0 0 40px;
+}
+
+
+#fadeEvents .fadeEvent
+{
+	opacity: 0;
+filter: alpha(opacity=0);
+}
+#fadeEvents div
+{
+	position: absolute;
+	
+}
+#fadeEvents div img
+{
+	border: 0;
+}
+#newsDateLinks {
+	float:right;
+	margin-bottom:20px;
+}
+.prDate {
+	width:100px;
+	clear:left;
+	font-weight:bold;
+	float:left;
+}
+.prTitle {
+	width: 600px;
+	float:left;
+}
+#ctl00_ctl00_mainContentHolder{
+/*background: url('/images/bg_content.jpg') no-repeat top right;*/
+width: 899px;
+padding: 0 0 48px 0;
+}
+#ctl00_ctl00_mainContent{
+width: 610px;
+float: left;
+margin: 57px 0 0 0px;
+padding: 0 0 0 36px;
+}
+#ctl00_ctl00_rightCol{
+float: left;
+margin: 270px 0 0 43px;
+}
+
+.WorkareaTitlebar
+{
+	color : white;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+	line-height : 22px;
+	border : 1px solid black;
+	padding-left : 5px;
+	vertical-align : bottom;
+	background-color:#3163BD;
+	background-image: url(file:///C|/Users/Rich/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/U7EFUR3K/darkblue_gradiant-nm.gif);
+}
+
+.jqShowHide
+{
+display: none;	
+}
+a.backBut
+{
+	background: url('/images/btn_back.gif') no-repeat top left;
+	width: 131px;
+	height: 57px;
+	display: block;
+	float: left;
+}
+#options a
+{
+	display: block;
+	float: left;
+	background: url('/images/btn_blue.gif') no-repeat top left;
+	width: 81px;
+	height: 19px;
+	margin: 0 5px 0 0;
+	text-align: center;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 3px 0 0 0;
+}
+#breadCrumb
+{
+	position: absolute;
+	z-index: 800;
+	width: 400px;
+	padding: 6px 0 0 45px;
+	left: 0;
+	font-size: 10px;
+}
+#breadCrumb a
+{
+	
+}
+#ctl00_mainContent p
+{
+	line-height: 20px;
+}
+#copyright
+{
+color:#999999;
+font-family:Arial,Helvetica,sans-serif;
+font-size:10px;
+line-height:12px;
+padding:10px 101px 0 101px;
+margin: -20px 0 0 0;
+}
+#cpText
+{
+	float: left; 
+	width: 50%; 
+	text-align: left;
+	padding: 0 0 10px 0;
+}
+#cpLinks
+{
+	float: left; 
+	width: 50%; 
+	text-align: right;
+	padding: 0 0 10px 0;
+}
+#pcMag
+{
+	text-align: center;
+	padding: 0 0 15px 0;
+}
+#copyright h1
+{
+	font-family:Arial,Helvetica,sans-serif;
+font-size:3px;
+line-height:3px;
+margin-bottom:15px;
+color: #999999;
+text-align: center;
+width: auto;
+}
+#copyright h2
+{
+	font-family:Arial,Helvetica,sans-serif;
+font-size:3px;
+line-height:3px;
+color: #999999;
+text-align: center;
+margin: 3px 0 0 0;
+}
+#copyright a:link
+{
+	color: #999999;
+	text-decoration: none;
+}
+#copyright a:visited
+{
+	color: #999999;
+	text-decoration: none;
+}
+#copyright a:hover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#copyright a:active
+{
+	color: #999999;
+	text-decoration: none;
+}
+

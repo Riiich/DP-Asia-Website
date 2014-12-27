@@ -1,0 +1,1525 @@
+
+
+
+/* colors:
+   DP Colors:
+     Nav bar blue: 425f95
+     Red  = #EE3E42
+     Gray = #808080
+     Blue = #425F95
+h1 = Helvetica, 28pt, line-height: 30px, Regular, Color #1A1A1A
+h2 = Helvetica, 14px, bold, line-height: 20px, Bold, Color #425F95
+h3 = Helvetica, 12px, bold, line-height: 20px, Bold, Color #425F95
+p= Helvetica, 12px, Regular, line-height: 20px, Color: #1A1A1A
+  Note: The sidebar navigation styles  are governed by the CSS in
+  sidebarnav_bus_solutions
+*/
+
+
+#newTileTop {
+   background-image:url("images/tile_top190.gif"/*tpa=http://www.digitalpersona.com/images/tile_top190.gif*/); 
+   background-position:left top;
+   width:190px;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   position: scroll;
+   overflow: hidden;
+}
+#contentHolder {
+   padding:10px 10px 0 10px;
+   width:170px;
+}
+#graphicLeft {
+   position: relative;
+   width:100px;
+   float:left;
+}
+#graphicRight {
+   position: relative;
+   width:100px;
+   float:right;
+}
+#newTileTop h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+        line-height: 16px;
+        font-weight:bold;
+	color: #333333;
+	padding:0px;
+	margin:0px;
+}
+#newTileTop p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+        line-height: 15px;
+	color: #333333;
+	padding:0px;
+	margin:0px;
+}
+#newTileTop .link {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	line-height: 12px;
+	font-weight:bold;
+	padding:2px 0 0 0;
+	margin:0px;
+}
+#newTileTop a {
+	color:#FF0000; 
+        text-decoration: none;
+}
+#newTileTop a:hover {
+	color:#425f95;
+        text-decoration: none; 
+}
+
+
+.PCmag_quote {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 19px;
+        color:#666666;
+        font-style: italic;
+}
+.buy_quote {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        line-height: 27px;
+        color:#999999;
+        font-style: italic;
+}
+
+#homePromo .tile_head {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+        line-height: 19px;
+	color: #FFFFFF;
+	padding: 12px 5px 0px 101px;
+	margin: 0px;
+}
+#homePromo .tile_subhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+        line-height: 16px;
+	color: #FFFFFF;
+	padding: 3px 10px 0px 101px;
+	margin: 0px;
+}
+#homePromo .tile_ul {
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	margin: 0px;
+	padding: 3px 5px 0px 50px;
+}
+#homePromo .tile_link {
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #222222;
+	margin: 0px;
+	padding: 3px 15px 0px 50px;
+	text-align:right;
+}
+#homePromo .tile_link a {
+        text-decoration:none;
+	color:#425f95;
+}
+#homePromo .tile_link a:hover {
+        text-decoration:none;
+	color:#FF0000;
+}
+
+
+.buy_link {
+        font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+        line-height: 13px; font-weight: bold; color:#333333; padding:0px 20px 5px 0px;  }
+.buy_link a {
+        color:#425f95; text-decoration: none;  }
+.buy_link a:hover {
+        color:#425f95; text-decoration: underline;  }
+.buy_icon {
+        margin:0px;   }
+
+p.call_out {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #999999;
+  font-size: 11px;
+  line-height: 150%;
+  background: url("images/call_out.gif"/*tpa=http://www.digitalpersona.com/images/call_out.gif*/) repeat-x left top;
+}
+
+#indentListing {
+	padding-left: 20px;
+}
+.new {
+	font-weight: bold;
+	font-style:oblique;
+	color: #FF0000;
+        padding-right:5px;
+}
+
+.homeNews {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+        color:#333333;
+}
+.homeNews a {
+        text-decoration:none;
+        color:#333333;
+}
+.homeNews a:hover {
+        text-decoration:underline;
+        color:#425F95;
+}
+
+#sidebarTile p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        line-height: 14px;
+        color:#333333;
+}
+
+#sidebarTile a {
+        text-decoration:none;
+        color:#333333;
+}
+#sidebarTile a:hover {
+        text-decoration:underline;
+        color:#425F95;
+}
+
+.pro_sidebar a {
+        text-decoration:none;
+        color:#425F95;
+}
+.pro_sidebar a:hover {
+        text-decoration:underline;
+        color:#425F95;
+}
+
+#content p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+        color:#333333;
+}
+#content p a {
+        text-decoration:none;
+        color:#425F95;
+}
+#content p a:hover {
+        text-decoration:underline;
+        color:#425F95;
+}
+#content-list ul {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        line-height: 14px;
+        color:#333333;
+
+}
+#content-list li {
+        padding-bottom:3px;
+        font-weight: bold;
+        list-style-type: square;
+}
+#content-list li a {
+        font-weight: bold;
+        text-decoration:none;
+        color:#425F95;
+}
+#content-list li a:hover {
+        text-decoration:underline;
+        color:#425F95;
+}
+
+
+
+#container {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  overflow: hidden;
+  width: 848px;
+  background: #FFFFFF;
+}
+
+/* banner holds logo and nav */
+
+#banner {
+  border-bottom: 1px solid #CCCCCC;
+  margin: 0px 1px 0px 1px;
+  overflow: hidden;
+}
+
+#banner img.logo {
+  float: left;
+}
+#banner #banner-nav {
+  float: right;
+  padding: 30px 30px 0px 228px;
+}
+
+#banner #banner-nav ul { list-style: none; margin: 0px 0px 0px 0px; padding: 0px 22px 5px 0px; }
+#banner #banner-nav ul li { font-size: 11px; color: #666666; margin: 0px 0px 0px 0px; padding: 0px 0px 5px 11px; background: url("images/arrow-ul.gif"/*tpa=http://www.digitalpersona.com/images/arrow-ul.gif*/) no-repeat 2px 4px; }
+#banner #banner-nav ul li a { color: #666666; }
+#banner #banner-nav ul li a:hover { color: #666666; }
+
+/* h1 */
+
+#h1-area {
+  clear: both;
+  margin: 0px 1px 0px 1px;
+  height: 224px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.h1-area-01 { background: #FFFFFF url("images/dppersonal_bg_01.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_01.jpg*/) no-repeat 0px 0px; }
+.h1-area-02 { background: #FFFFFF url("images/dppersonal_bg_02.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_02.jpg*/) no-repeat 0px 0px; }
+.h1-area-03 { background: #FFFFFF url("images/dppersonal_bg_03.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_03.jpg*/) no-repeat 0px 0px; }
+.h1-area-04 { background: #FFFFFF url("images/dppersonal_bg_04.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_04.jpg*/) no-repeat 0px 0px; }
+.h1-area-05 { background: #FFFFFF url("images/dppersonal_bg_05.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_05.jpg*/) no-repeat 0px 0px; }
+.h1-area-06 { background: #FFFFFF url("images/dppersonal_bg_06.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_06.jpg*/) no-repeat 0px 0px; }
+.h1-area-07 { background: #FFFFFF url("images/dppersonal_bg_07.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_07.jpg*/) no-repeat 0px 0px; }
+.h1-area-08 { background: #FFFFFF url("images/dppersonal_bg_05.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_05.jpg*/) no-repeat 0px 0px; }
+.h1-area-09 { background: #FFFFFF url("images/dppersonal_bg_06.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_06.jpg*/) no-repeat 0px 0px; }
+.h1-area-10 { background: #FFFFFF url("images/dppersonal_bg_10.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_10.jpg*/) no-repeat 0px 0px; }
+.h1-area-11 { background: #FFFFFF url("images/dppersonal_SMB.jpg"/*tpa=http://www.digitalpersona.com/images/dppersonal_SMB.jpg*/) no-repeat 0px 0px; }
+
+
+.h1-area-01 #h1-text-area, .h1-area-02 #h1-text-area, .h1-area-03 #h1-text-area, .h1-area-04 #h1-text-area, .h1-area-05 #h1-text-area, .h1-area-06 #h1-text-area, .h1-area-07 #h1-text-area {
+  padding: 117px 0px 0px 35px;
+  width: 425px;
+}
+.h1-area-01 #h1-text-area { width: 325px; }
+.h1-area-02 #h1-text-area { width: 470px; }
+.h1-area-03 #h1-text-area { width: 470px; }
+.h1-area-05 #h1-text-area { width: 470px; }
+.h1-area-06 #h1-text-area { width: 470px; }
+.h1-area-07 #h1-text-area { width: 390px; }
+.h1-area-08 #h1-text-area { padding: 85px 0px 0px 25px; width: 445px;}
+.h1-area-09 #h1-text-area { padding: 85px 0px 0px 25px; width: 445px;}
+.h1-area-10 #h1-text-area { padding: 85px 0px 0px 25px; width: 445px;}
+.h1-area-11 #h1-text-area { padding: 85px 0px 0px 25px; width: 445px;}
+
+
+#h1-area  #h1-text-area table td {
+  height: 100px;
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px;
+}
+#h1-area  #h1-text-area table td h1 {
+  color: #003366;
+  font-size: 22px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#h1-area  #h1-text-area table td ul {
+
+
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #003366;
+}
+#h1-area  #h1-text-area table td ul li {
+  padding: 10px 0px 10px 0px;
+
+  margin: 0px 0px 0px 0px;
+}
+
+/* content def */
+
+#content-main-area {
+  min-height: 490px;
+  height:auto !important;
+  height:490px;
+  background: url("images/dppersonal_bg_content.gif"/*tpa=http://www.digitalpersona.com/images/dppersonal_bg_content.gif*/) no-repeat center 0px;
+  overflow: visible;
+  margin-top: 30px;
+}
+
+
+
+
+/* testing not finally */
+
+#content-main-area ul {
+  padding: 0px 60px 10px 60px;
+  margin: 0px 0px 0px 10px;
+}
+#content-main-area ul li {
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#content-main-area h2 {
+	padding: 0px 51px 0px 51px;
+}
+
+#content-main-area p {
+  padding: 0px 51px 0px 51px;
+}
+
+/* end test */
+
+div.div-hints p {
+  clear: both;
+  padding-top: 10px !important;
+}
+
+#content-main-area a {
+  color: #339999;
+  font-weight: bold;
+}
+
+#content-main-area p.header {
+  font-size: 16px;
+  font-weight: bold;
+}
+#content-main-area p.intro {
+  font-size: 16px;
+  line-height: 18px;
+}
+#content-main-area p.special-1 {
+  color: #003366;
+}
+
+#content-main-area .two-columns {
+  overflow: hidden;
+}
+
+
+#content-main-area .two-columns .two-columns-column-1 {
+  float: left;
+  width: 528px;
+}
+#content-main-area .two-columns .two-columns-column-2 {
+  float: right;
+  width: 265px;
+  padding-right: 51px;
+}
+
+table.two-columns-table {
+  width: 840px;
+}
+table.two-columns-table td {
+  vertical-align: top;
+}
+table.two-columns-table td.last-td {
+  padding-right: 51px;
+  text-align: right;
+  float: right;
+}
+
+table.two-columns-table-special {
+  width: 730px;
+}
+table.two-columns-table-special td.last-td {
+  text-align: right;
+  float: right;
+  padding-right: 7px;
+}
+
+
+
+
+table.three-columns-table {
+  width: 780px;
+  padding: 0px;
+  margin: 0px auto 0px auto;
+}
+table.three-columns-table td {
+  padding: 0px;
+  margin: 0px;
+  width: 260px;
+  vertical-align: top;
+}
+table.three-columns-table td.three-column-1 {
+  background: url("images/three-columns-1.gif"/*tpa=http://www.digitalpersona.com/images/three-columns-1.gif*/) no-repeat top left;
+}
+table.three-columns-table td.three-column-2 {
+  background: url("images/three-columns-2.gif"/*tpa=http://www.digitalpersona.com/images/three-columns-2.gif*/) no-repeat top left;
+}
+table.three-columns-table td.three-column-3 {
+  background: url("images/three-columns-3.gif"/*tpa=http://www.digitalpersona.com/images/three-columns-3.gif*/) no-repeat top left;
+}
+
+table.three-columns-table td h2 {
+  padding: 20px 0px 10px 0px;
+  margin: 0px 20px 0px 20px;
+  text-align: center;
+  color: #003366;
+  font-size: 17px;
+}
+table.three-columns-table td p {
+  text-align: left;
+  padding: 15px 120px 20px 30px !important;
+  margin: 0px;
+}
+table.three-columns-table td.three-column-bottom {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  background: url("images/three-columns-bottom.gif"/*tpa=http://www.digitalpersona.com/images/three-columns-bottom.gif*/) no-repeat bottom left;
+}
+table.three-columns-table td.three-column-bottom p.button-3-column-p {
+  text-align: center;
+  padding: 0px 0px 0px 40px !important;
+  margin: 0px auto 0px auto;
+  overflow: hidden;
+}
+
+
+table.content-special-01 {
+  width: 740px;
+  margin: 0px auto 0px auto;
+}
+
+table.content-special-01 tr.title td.first-td {
+  color: #009999;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 10px 10px 10px;
+}
+table.content-special-01 tr.title td.last-td {
+  text-align: right;
+  padding: 0px 10px 10px 10px;
+}
+
+table.content-special-01 tr.below-title td.first-td {
+  border-top: 1px solid #CCCCCC;
+  padding: 0px 10px 10px 10px;
+}
+table.content-special-01 tr.below-title td.last-td {
+  border-top: 1px solid #CCCCCC;
+  padding: 0px 10px 10px 10px;
+}
+
+table.content-special-01 tr.content-1 td.first-td {
+  background: url("images/content-1-first-td.gif"/*tpa=http://www.digitalpersona.com/images/content-1-first-td.gif*/) no-repeat top left;
+  padding: 10px 20px 20px 20px;
+}
+
+table.content-special-01 tr.content-1 td.last-td {
+  background: url("images/content-1-last-td.gif"/*tpa=http://www.digitalpersona.com/images/content-1-last-td.gif*/) no-repeat top right;
+  padding: 20px;
+}
+table.content-special-01 tr.content-1 td.last-td a {
+  white-space: nowrap;
+}
+table.content-special-01 tr td.empty-td {
+  padding: 0px 0px 0px 10px !important;
+}
+
+table.content-special-01 tr.content-1 td.button-td-1 {
+  padding-left: 25px;
+}
+table.content-special-01 tr.content-1 td.arrow-td-1, table.content-special-01 tr.content-1 td.arrow-td-2 {
+  padding-left: 25px;
+  text-align: right;
+  vertical-align: top;
+}
+
+table.content-special-01 tr.content-1 td.arrow-td-2 {
+  text-align: center;
+}
+
+table.content-special-01 tr.content-1 td p {
+  padding: 0px 0px 10px 0px;
+
+}
+
+table.content-special-01 tr.content-1 td.first-td p {
+  color: #003366;
+  font-weight: bold;
+  font-size: 16px;
+}
+table.content-special-01 tr.content-1 td.first-td p span.subtext {
+  font-size: 12px;
+  color: #000000;
+  font-weight: normal;
+}
+
+table.content-special-01 tr.content-1 td ul {
+  padding: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
+}
+table.content-special-01 tr.content-1 td ul li {
+  padding: 0px 0px 5px 0px;
+  margin: 0px 0px 0px 10px;
+  font-weight: normal;
+}
+table.content-special-01 tr.content-1 td ul.ul2 li {
+  padding: 5px 0px 10px 0px;
+}
+
+table.content-special-01 tr.content-1 td.first-td-icon {
+  padding-left: 70px;
+  vertical-align: top;
+}
+
+table.content-special-01 tr.content-1 td.first-td-icon-1 { background: url("images/first-td-icon-1.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-1.gif*/) no-repeat top left; }
+table.content-special-01 tr.content-1 td.first-td-icon-2 { background: url("images/first-td-icon-2.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-2.gif*/) no-repeat top left; }
+table.content-special-01 tr.content-1 td.first-td-icon-3 { background: url("images/first-td-icon-3.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-3.gif*/) no-repeat top left; }
+table.content-special-01 tr.content-1 td.first-td-icon-4 { background: url("images/first-td-icon-4.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-4.gif*/) no-repeat top left; }
+table.content-special-01 tr.content-1 td.first-td-icon-5 { background: url("images/first-td-icon-5.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-5.gif*/) no-repeat top left; }
+table.content-special-01 tr.content-1 td.first-td-icon-6 { background: url("images/first-td-icon-6.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-6.gif*/) no-repeat top left; }
+table.content-special-01 tr.content-1 td.first-td-icon-7 { background: url("images/first-td-icon-7.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-7.gif*/) no-repeat top left; }
+table.content-special-01 tr.content-1 td.first-td-icon-8 { background: url("images/first-td-icon-8.gif"/*tpa=http://www.digitalpersona.com/images/first-td-icon-8.gif*/) no-repeat top left; }
+
+div.price-tag {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+span.old-price {
+  text-decoration: line-through;
+  font-size: 11px;
+  font-weight: normal;
+}
+span.price-text {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FF0000;
+}
+
+
+#content-special-01 {
+  background: url("images/dppersonal_special_01.gif"/*tpa=http://www.digitalpersona.com/images/dppersonal_special_01.gif*/) no-repeat center 0px;
+  padding: 18px 51px 18px 51px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#content-special-01 p, #content-special-02 p {
+  padding: 0px 0px 10px 10px;
+}
+#content-special-01 h2 {
+  text-align: center;
+  color: #009999;
+  font-size: 18px;
+  padding: 0px 0px 15px 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+#content-special-01 .h2-area {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 20px 0px;
+  overflow: hidden;
+}
+#content-special-01 .h2-area h2 {
+  text-align: left;
+  border-bottom: 0px;
+  padding: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
+  width: 500px;
+  float: left;
+}
+
+#content-special-01 p.special, #content-special-02 p.special {
+  font-size: 16px;
+}
+
+ul.special-ul-0 {
+  padding: 0px 0px 10px 30px;
+  margin: 0px 0px 0px 0px;
+}
+ul.special-ul-0 li {
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+ul.special-ul-1 {
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+ul.special-ul-1 li {
+  background: url("images/special-ul-1.gif"/*tpa=http://www.digitalpersona.com/images/special-ul-1.gif*/) no-repeat center 0px;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 0px 0px 0px;
+  color: #003366;
+  font-weight: bold;
+  font-size: 16px;
+}
+ul.special-ul-alone li {
+  padding: 20px 71px 20px 71px;
+}
+
+ul.special-ul-1 li span.subtext {
+  font-size: 12px;
+  color: #000000;
+}
+ul.special-ul-1 li span.subtitle {
+  color: #000000;
+}
+ul.special-ul-1 li div.li-outer {
+  clear: both;
+  overflow: hidden;
+}
+
+
+/* -------------- clean from here down --------------------- */
+.sidebar {
+   padding-top:0;
+   padding-right:25px;
+   padding-bottom:0;
+   padding-left:0;
+   width:175px;
+}
+td {
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 11px;
+   line-height: 15px;
+   color:#333333;
+}
+
+
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:24px;
+  line-height: 28px;
+  font-weight:normal;
+  color: #1A1A1A;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #425F95;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:13px;
+  line-height: 14px;
+  font-weight: bold;
+  color: #1A1A1A;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+h4 {
+  color: #666666;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+h5 {
+  color: #6699CC;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+h6 {
+  color: #333333;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+
+
+.content {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        line-height: 15px;
+        color:#333333;
+        /*padding-left: 40px;
+        padding-right: 30px;*/
+}
+.content a {
+        color:#425f95;
+        text-decoration: none;
+}
+.content a:hover {
+
+        color:#425f95;
+        text-decoration: underline;
+}
+.XXcontent li {
+        list-style-position: outside;
+	list-style-image: url("images/bulletBlue.gif"/*tpa=http://www.digitalpersona.com/images/bulletBlue.gif*/);
+	margin-left:-10px;
+	margin-bottom:7px;
+}
+
+.logobar {
+  background-color: #FFFFFF;
+}
+.highlight {
+  color: #FF0000;
+}
+
+.searchbar {
+  padding-right: 10;
+  background-color: #E6E3CC;
+}
+
+.searchcell{
+  color: #888888;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+
+.searchlink {
+  color: #888888;
+  font-weight: bold;
+  text-decoration: none;
+}
+.searchlink a {
+  color: #888888;
+  text-decoration: none;
+}
+.searchlink a:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
+
+
+
+
+.breadcrumb {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  padding-left:40px;
+  padding-top:10px;
+  padding-bottom:2px;
+  color: #666666;
+}
+
+.breadcrumblink {
+
+  color: #3467BB;
+  text-decoration: none;
+}
+
+.breadcrumblink a {
+  color: #3467BB;
+  text-decoration: none;
+}
+.breadcrumblink a:hover {
+  color: #6699CC;
+  text-decoration: underline;
+}
+
+
+.pagetitle {
+  background-color: #6699CC;
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+.pagetitle1 {
+  background-color: #6699CC;
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+}
+.link {
+  color: #00518a;
+}
+
+
+/* footer -- updated 11-15-8 */
+div.footer-links {
+  color: #666666;
+  font-size: 11px; 
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  font-weight: normal;
+}
+
+div.footer-links a { font-size: 11px; color: #888888 !important; text-decoration: none; }
+div.footer-links a:hover { text-decoration: underline; }
+
+/* footer -- updated 9-1-8 */
+.holder-footer td {
+    padding:0 0 0 0;
+}
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666666;
+    }
+
+#footer a {
+    color: #666666;
+    text-decoration: none;
+    }
+
+#footer a:hover {
+    color: #666666;
+    text-decoration: underline;
+    }
+
+
+
+
+
+
+.legalcell {
+    font-size: 10px;
+    }
+
+    .legalcell a {
+       font-weight:bold;
+       color: #00518a;
+       text-decoration: none;
+       }
+
+    .legalcell a:hover {
+       color: #6699CC;
+       text-decoration: underline;
+       }
+
+
+
+ul.jd_menu, 
+ul.jd_menu_vertical {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+ul.jd_menu_vertical {
+	width: 175px;
+	height: auto;
+	clear: both;
+}
+ul.jd_menu li {
+	float: left;
+        margin: 0px;
+        padding: 0px;
+}
+
+/* -- Sub-Menus -- */
+ul.jd_menu ul,
+ul.jd_menu_vertical ul {
+	position: absolute;
+	display: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	z-index: 10000;
+}
+ul.jd_menu ul li,
+ul.jd_menu_vertical ul li {
+	float: none;
+	margin: 0px;
+        padding: 0px;
+}
+
+.navBkg {
+	background-image: url("images/nav_bkg.jpg"/*tpa=http://www.digitalpersona.com/images/nav_bkg.jpg*/);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.homecontent {
+  z-index: -1;
+}
+
+
+/* ------------------- DAN STUFF 11/15/08 -------------------------- */
+
+a.link-a {
+  font-weight: normal !important;
+}
+a.link-b {
+  font-weight: normal !important;
+  font-size: 12px;
+}
+a.link-b         { color: #003366 !important; text-decoration: underline; }
+a.link-b:hover   { color: #003366 !important; text-decoration: underline; }
+
+p.link-b-p {
+  text-align: right;
+}
+
+/* buttons */
+
+a.button-1 {
+  display: block;
+  height: 30px;
+  background: transparent url("images/btns-left.gif"/*tpa=http://www.digitalpersona.com/images/btns-left.gif*/) no-repeat left top;
+  font-size: 14px;
+  color: #000000 !important;
+  font-weight: bold;
+  padding: 0px 0px 0px 17px;
+  cursor:pointer;
+  line-height: 30px;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+a.button-1-h2 {
+  float: right;
+  margin-right: 10px;
+}
+a.button-1:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a.button-1 span {
+  height: 30px;
+  display: block;
+  background: transparent url("images/btns-right.gif"/*tpa=http://www.digitalpersona.com/images/btns-right.gif*/) no-repeat right top;
+  padding: 0px 17px 0px 0px;
+  cursor:pointer;
+}
+p.button-p-1 {
+  float: right;
+  padding: 0px !important;
+}
+p.button-p-2 {
+  float: right;
+}
+span.button-placeholder {
+  display: block;
+  height: 30px;
+}
+
+
+a.button-2 {
+  display: block;
+  float: left;
+  height: 61px;
+  background: transparent url("images/btns-2-left.gif"/*tpa=http://www.digitalpersona.com/images/btns-2-left.gif*/) no-repeat left top;
+  font-size: 11px;
+
+  color: #003366;
+  font-weight: bold;
+  padding: 0px 0px 0px 17px;
+  cursor:text;
+  text-decoration: none;
+}
+a.button-2:hover {
+  color: #003366;
+  text-decoration: none;
+}
+a.button-2 span {
+  height: 61px;
+  display: block;
+  background: transparent url("images/btns-2-right.gif"/*tpa=http://www.digitalpersona.com/images/btns-2-right.gif*/) no-repeat right top;
+  padding: 9px 17px 0px 0px;
+  cursor:text;
+  text-align: center;
+}
+
+
+
+
+a.button-3 {
+  display: block;
+  height: 30px;
+  background: transparent url("images/btns-3-left.gif"/*tpa=http://www.digitalpersona.com/images/btns-3-left.gif*/) no-repeat left top;
+  font-size: 14px;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  padding: 0px 0px 0px 17px;
+  cursor:pointer;
+  line-height: 30px;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+a.button-3-h2 {
+  float: right;
+  margin-right: 10px;
+}
+a.button-3:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a.button-3 span {
+  height: 30px;
+  display: block;
+  background: transparent url("images/btns-3-right.gif"/*tpa=http://www.digitalpersona.com/images/btns-3-right.gif*/) no-repeat right top;
+  padding: 0px 17px 0px 0px;
+  cursor:pointer;
+}
+
+/* UPGRADE MESSAGE ------ MAKES NO DIFF */
+
+div.upgrade-msg-outer {
+  /* creating the dimensions...depending on what is happening with this code, they might become 100%/100% */
+  width: 464px;
+  height: 287px;
+  background: #FFFFFF;
+  padding: 10px;
+  text-align: left;
+}
+div.upgrade-msg-outer-img {
+  background: #FFFFFF url("images/print-background.png"/*tpa=http://www.digitalpersona.com/images/print-background.png*/) no-repeat 20px center;
+}
+div.upgrade-msg-outer-2 {
+  width: auto;
+  height: auto;
+}
+
+p.upgrade-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul.upgrade-ul {
+  padding: 0px 0px 10px 10px;
+  margin: 0px 0px 0px 10px;
+}
+ul.upgrade-ul li {
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+a.upgrade-link       { color: #000000; text-decoration: underline; }
+a.upgrade-link:hover { color: #666666; text-decoration: underline; }
+
+td.upgrade-column1 {
+  padding: 0px 10px 0px 0px;
+}
+td.upgrade-column2 {
+  text-align: center;
+  width: 120px;
+}
+
+td.upgrade-column1 p {
+  padding-bottom: 10px;
+}
+
+td.upgrade-column2 p.p-upgrade-column2 {
+  padding: 10px 5px 10px 0px;
+  overflow: hidden;
+}
+
+table.content-embed-01 tr.top td.first-td {
+  background: transparent url("images/content-embed-01-1.gif"/*tpa=http://www.digitalpersona.com/images/content-embed-01-1.gif*/) no-repeat left top;
+}
+table.content-embed-01 tr.top td.last-td {
+  background: transparent url("images/content-embed-01-2.gif"/*tpa=http://www.digitalpersona.com/images/content-embed-01-2.gif*/) no-repeat right top;
+  width: 10px;
+}
+
+table.content-embed-01 tr.bottom td.first-td {
+  background: transparent url("images/content-embed-01-bottom-1.gif"/*tpa=http://www.digitalpersona.com/images/content-embed-01-bottom-1.gif*/) no-repeat left top;
+
+}
+table.content-embed-01 tr.bottom td.last-td {
+  background: transparent url("images/content-embed-01-bottom-2.gif"/*tpa=http://www.digitalpersona.com/images/content-embed-01-bottom-2.gif*/) no-repeat right top;
+  width: 10px;
+}
+
+p.embed-intro {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px 20px 5px;
+}
+
+table.content-embed-01 tr.top td h2 {
+  color: #003366;
+  font-size: 18px;
+  padding: 10px 15px 10px 15px;
+  margin: 0px;
+}
+table.content-embed-01 tr.top td p {
+  font-size: 13px;
+  padding: 0px 15px 10px 15px;
+  margin: 0px;
+}
+table.content-embed-01 tr.top td p.last-td {
+  padding-bottom: 15px;
+}
+table.content-embed-01 tr.top td.arrow-td {
+  width: auto;
+  text-align: right;
+  vertical-align: bottom;
+  padding: 15px 15px 10px 10px;
+}
+table.content-embed-01 tr.top td.link-td {
+  cursor:pointer;
+}
+
+
+
+table.form-table {
+
+}
+table.form-table td {
+  padding: 10px 10px 10px 60px;
+}
+table.form-table td.label-td {
+}
+table.form-table td.field-td {
+  padding: 10px 10px 10px 10px;
+}
+table.form-table td.label-textarea {
+  vertical-align: top;
+  padding-top: 12px;
+}
+ 
+.text-field, .textarea {
+  width: 400px;
+}
+
+
+
+
+table.data-table {
+  border-left: 1px solid #999999;
+  margin: 10px 0px 20px 0px;
+}
+table.data-table th {
+  white-space: nowrap;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+  padding: 5px;
+}
+table.data-table td {
+  text-align: center;
+  font-weight: normal;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+  padding: 3px 5px 3px 5px;
+}
+table.data-table td.text {
+  text-align: left;
+}
+
+div.footer-links {
+  color: #666666;
+  font-size: 11px; 
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  font-weight: normal;
+}
+
+div.footer-links a { font-size: 11px; color: #888888 !important; text-decoration: none; }
+div.footer-links a:hover { text-decoration: underline; }
+
+div.flashpiece {
+  padding: 20px 50px 20px 10px;
+  overflow: hidden;
+  clear: both;
+}
+
+.standardText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #333333;
+	padding-top: 20px;
+	padding-right: 35px;
+	padding-bottom: 30px;
+	padding-left: 35px;
+}
+.standardText a {
+	color: #333333;
+	text-decoration: underline;
+}
+.standardText a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.head1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #333333;
+	font-weight: bold;
+}
+.head2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #333333;
+}
+.head3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #FF0000;
+}
+.tabletext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	color: #333333;
+	padding-right: 10px;
+
+	padding-bottom: 7px;
+	padding-top: 3px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666666;
+}
+
+/* Styles for new home page */
+
+#home_block1 {
+  background: #EFEFEF;
+  width: 847px;
+  height: 337px;
+  margin: 0px;
+  padding: 0px;
+
+  border-bottom: 1px solid #FF0303;
+}
+#home_block1_img {
+  float: left;
+  width: 505px;
+  height: 337px;
+  background-image: url("images/home_block1_img.jpg"/*tpa=http://www.digitalpersona.com/images/home_block1_img.jpg*/);
+  background-repeat: no-repeat;
+}
+.home_block1_img_default {
+  background-position: center 0px;
+}
+.home_block1_img_a {
+  background-position: center -387px;
+}
+.home_block1_img_b {
+  background-position: center -774px;
+}
+.home_block1_img_c {
+  background-position: center -1161px;
+}
+
+#home_block1_nav {
+  float: left;
+  width: 342px;
+  height: 337px;
+}
+#home_block1_nav_a {
+  width: 342px;
+  height: 56px;
+}
+#home_block1_nav_b {
+  width: 342px;
+  height: 56px;
+}
+#home_block1_nav_c {
+  width: 342px;
+  height: 56px;
+}
+#home_block1_nav_d {
+  width: 342px;
+  height: 168px;
+  background: #EFEFEF url("images/home_block1_nav_d_new.gif"/*tpa=http://www.digitalpersona.com/images/home_block1_nav_d_new.gif*/) no-repeat top left;
+  overflow: hidden;
+  cursor: pointer;
+}
+#home_block1 h2 {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 24px 10px 5px 100px;
+}
+#home_block1 p {
+  margin: 0px;
+  padding: 5px 10px 5px 19px;
+  font-size: 12px;
+  line-height: 150%;
+}
+#home_block1 ul {
+  margin: 5px 0px 0px 26px;
+  padding: 0px 0px 0px 26px;
+  font-size: 13px;
+
+}
+#home_block1 ul li {
+  margin: 0px 0px 0px 0px;
+  padding: 4px 0px 0px 0px;
+}
+#home_block1 .home_block1_img_a ul {
+  margin: 0px 0px 0px 118px;
+  padding: 0px 0px 0px 18px;
+  font-family: Tahoma, Arial;
+  font-size: 18px;
+  font-weight: normal;
+}
+#home_block1 .home_block1_img_b ul {
+  margin: 40px 0px 0px 218px;
+  padding: 0px 0px 0px 18px;
+  font-family: Tahoma, Arial;
+  font-size: 18px;
+  font-weight: normal;
+}
+#home_block1 .home_block1_img_c ul {
+  margin: 10px 0px 0px 18px;
+  padding: 0px 0px 0px 18px;
+
+  width: 250px;
+  font-family: Tahoma, Arial;
+  font-size: 18px;
+  font-weight: normal;
+}
+#home_block1 .home_block1_img_a ul li {
+  padding-top: 10px;
+}
+#home_block1 .home_block1_img_b ul li {
+  padding-top: 10px;
+}
+#home_block1 .home_block1_img_c ul li {
+  padding-top: 10px;
+}
+
+#home_block1 .home_block1_img_c ul li.li_1 {
+}
+#home_block1 .home_block1_img_c ul li.li_2 {
+  padding-right: 50px;
+  line-height: 22px;
+}
+#home_block1 .home_block1_img_c ul li.li_3 {
+  padding-right: 120px;
+  line-height: 22px;
+}
+#home_block2 {
+  clear: both;
+  background: #CCCCCC;
+  margin: 0px;
+  padding: 10px 22px 23px 23px;
+  border-top: 1px solid #EFEFEF;
+}
+#home_block2_top {
+  background: #CCCCCC url("images/bg_home_block2_top.gif"/*tpa=http://www.digitalpersona.com/images/bg_home_block2_top.gif*/) no-repeat top left;
+  height: 7px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+#home_block2_middle {
+  background: #CCCCCC url("images/bg_home_block2_middle.gif"/*tpa=http://www.digitalpersona.com/images/bg_home_block2_middle.gif*/) repeat-y top left;
+  overflow: hidden;
+}
+
+#home_block2_bottom {
+
+  background: #CCCCCC url("images/bg_home_block2_bottom.gif"/*tpa=http://www.digitalpersona.com/images/bg_home_block2_bottom.gif*/) no-repeat top left;
+  height: 7px;
+  border: 0px;
+}
+#home_block2 h2 {
+  font-size: 14px;
+  color: #395280;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+
+
+}
+#home_block2 p {
+  line-height: 150%;
+  font-size: 11px;
+  margin: 0px 0px 0px 0px;
+  padding: 15px 0px 0px 0px;
+}
+#home_block2 p.last_p {
+  border-bottom: 1px solid #999999;
+  padding-bottom: 15px;
+}
+#home_block2 ul {
+  margin: 0px 0px 0px 1px;
+  padding: 0px 0px 0px 1px;
+  list-style-type: none;
+}
+#home_block2 ul li {
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 5px;
+  background: url("images/home_ul_bullet.gif"/*tpa=http://www.digitalpersona.com/images/home_ul_bullet.gif*/) no-repeat 0px 15px;
+}
+#home_block2 a         { font-size: 11px; color: #000000; text-decoration: none; }
+#home_block2 a:link    {  }
+#home_block2 a:visited {  }
+#home_block2 a:active  {  }
+
+
+
+
+
+
+
+
+#home_block2 a:hover   { color: #000000; text-decoration: underline; }
+
+#home_block2_middle_b_logos {
+  margin: 40px 0px 0px 0px;
+  width: 220px;
+  height: 100px;
+}
+div.logo_div_0 {
+  background: url("images/logos.jpg"/*tpa=http://www.digitalpersona.com/images/logos.jpg*/) no-repeat top center;
+}
+
+#home_block2 h2 a.more_h2_link         { color: #336699; font-size: 14px; font-weight: bold; text-decoration: none; background: url("images/arrow_more_link.gif"/*tpa=http://www.digitalpersona.com/images/arrow_more_link.gif*/) no-repeat center right; padding: 4px 25px 4px 0px; }
+#home_block2 h2 a.more_h2_link:link    {  }
+#home_block2 h2 a.more_h2_link:visited {  }
+#home_block2 h2 a.more_h2_link:active  {  }
+#home_block2 h2 a.more_h2_link:hover   { color: #336699; text-decoration: underline; }
+
+
+
+#home_block3 {
+  clear: both;
+  background: #CCCCCC;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  border-bottom: 1px solid #FFFFFF;
+  overflow: hidden;
+}
+#home_block3_a {
+  padding: 0px 27px 0px 24px;
+  background: #CCCCCC;
+}
+#home_block3_b {
+  padding: 0px 27px 0px 0px;
+  background: #CCCCCC;
+}
+#home_block3_c {
+  padding: 0px 26px 0px 0px;
+  background: #CCCCCC;
+}
+#home_block3_d {
+  padding: 0px 23px 0px 0px;
+  background: #CCCCCC;
+}
+
+a.more_link         { color: #000000; text-decoration: none; background: url("images/arrow_more_link.gif"/*tpa=http://www.digitalpersona.com/images/arrow_more_link.gif*/) no-repeat center right; padding: 4px 25px 4px 0px; }
+a.more_link:link    {  }
+a.more_link:visited {  }
+a.more_link:active  {  }
+a.more_link:hover   { color: #000000; text-decoration: underline; }
+
+ul.jd_menu_primary_nav {	height: 20px;	clear: both;        z-index:999;        margin:0px;}ul.jd_menu_primary_nav a, ul.jd_menu_primary_nav a:active,ul.jd_menu_primary_nav a:link,ul.jd_menu_primary_nav a:visited {	text-decoration: none;	color: #FFF;        margin:0px;        display:block;}ul.jd_menu_primary_nav ul li a,ul.jd_menu_primary_nav ul li a:active,ul.jd_menu_primary_nav ul li a:link,ul.jd_menu_primary_nav ul li a:visited {	color: #f2f2f2;        margin:0px;        display:block;}ul.jd_menu_primary_nav li {	font-size: 14px;        margin: 0px;	padding: 4px 12px 4px 13px;	cursor: pointer;        font-weight:700;	white-space: nowrap;	color: #FFF;}ul.jd_menu_primary_nav li.jdm_active,ul.jd_menu_primary_nav li.jdm_hover {  background-image: url("images/pnav_gray_overBkg.gif"/*tpa=http://www.digitalpersona.com/images/pnav_gray_overBkg.gif*/);}ul.jd_menu_primary_nav ul {	background-color: #404040;        padding: 5px;        margin: 0 0 0 0px;        border: 1px solid #343434;}ul.jd_menu_primary_nav ul li {	padding: 3px 10px 2px 5px;	font-size: 12px;	background-color: #404040;	border: none;        margin: 0px;	border-bottom: 1px solid #343434;        font-weight:500;	color: #f2f2f2;        width:auto;        text-align:left;}ul.jd_menu_primary_nav ul li.jdm_active,ul.jd_menu_primary_nav ul li.jdm_hover {  background-image: url("images/pnav_lgray_Bkg.gif"/*tpa=http://www.digitalpersona.com/images/pnav_lgray_Bkg.gif*/);}ul.jd_menu_primary_nav ul li ul {	background-color: #425f95;        padding: 5px;        margin: 0 0 0 0px;        border: 1px solid #3A5891;}ul.jd_menu_primary_nav ul li ul li {	padding: 3px 10px 2px 5px;	font-size: 12px;	background-color: #425f95;	border: none;        margin: 0px;	border-bottom: 1px solid #3A5891;        font-weight:500;	color: #f2f2f2;        width:auto;        text-align:left;}ul.jd_menu_primary_nav ul li ul li.jdm_active,ul.jd_menu_primary_nav ul li ul li.jdm_hover {  background-image: url("images/pnav_lblue_Bkg.gif"/*tpa=http://www.digitalpersona.com/images/pnav_lblue_Bkg.gif*/);}
+ul.jd_menu_uprimary_nav {	height: 20px;	clear: both;        z-index:999;        margin:0px;}ul.jd_menu_uprimary_nav a, ul.jd_menu_uprimary_nav a:active,ul.jd_menu_uprimary_nav a:link,ul.jd_menu_uprimary_nav a:visited {	text-decoration: none;	color: #000;        margin:0px;        display:block;}ul.jd_menu_uprimary_nav ul li a,ul.jd_menu_uprimary_nav ul li a:active,ul.jd_menu_uprimary_nav ul li a:link,ul.jd_menu_uprimary_nav ul li a:visited {	color: #000;        margin:0px;        display:block;}ul.jd_menu_uprimary_nav li {	font-size: 12px;        margin: 0px;	padding: 5px 10px 5px 0px;	cursor: pointer;	white-space: nowrap;	color: #000;}ul.jd_menu_uprimary_nav li.jdm_active,ul.jd_menu_uprimary_nav li.jdm_hover {  color: #FFF;}ul.jd_menu_uprimary_nav ul {	background: #FFFFFF;        padding: 5px;        margin: 0 0 0 0px;        border: 1px solid #C1C1C1;}ul.jd_menu_uprimary_nav ul li {	padding: 3px 10px 2px 5px;	background: #FFFFFF;	border: none;        margin: 0px;	border-bottom: 1px solid #C1C1C1;        font-weight:500;	color: #FFF;        width:auto;        text-align:left;}ul.jd_menu_uprimary_nav ul li.jdm_active,ul.jd_menu_uprimary_nav ul li.jdm_hover {        background-repeat: no-repeat;	color: #000;        font-weight:500;}ul.jd_menu_uprimary_nav ul li.jdm_active a.jdm_active,ul.jd_menu_uprimary_nav ul li.jdm_hover a.jdm_hover {	color: #000;}
+#product_side_nav {  padding-top:5px;  background: url("images/leftSidebar_top.gif"/*tpa=http://www.digitalpersona.com/images/leftSidebar_top.gif*/) top no-repeat;}#product_side_navb {  width:170px;  height:5px;  background: url("images/leftSidebar_bottom.gif"/*tpa=http://www.digitalpersona.com/images/leftSidebar_bottom.gif*/) bottom no-repeat; }.nvgraq{  display:none;  float:right;  margin-top:-13px;}#nvg0,#nvg0 li,#nvg0 ul { font-family: Arial, Helvetica, sans-serif; font-weight: bold; width: 170px; font-size: 11px; line-height: 13px; color: #111111; margin: 0; padding: 0px; list-style-type: none;}#nvg0 a { display:block;}#nvg0 a:link, #nvg0 a:visited { color: #111111; text-decoration: none; padding: 4px 10px 4px 5px; margin: 0px 0px 0px 5px;}#nvg0 a:hover { text-decoration: none;}#nvg1,#nvg1 li,#nvg1 ul { width: 170px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 10px; color: #4D4D4D; line-height: 13px; margin: 0px; padding: 0px; list-style-type: none;}#nvg1 a { display:block;}#nvg1 a:link,#nvg1 a:visited { color: #4D4D4D; text-decoration: none; padding: 5px 10px 5px 5px; margin: 0px 0px 0px 15px;}#nvg1 a:hover { text-decoration: none;}#nvg2,#nvg2 li,#nvg2 ul { width: 170px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 10px; color: #4D4D4D; line-height: 13px; margin: 0px; padding: 0px; list-style-type: none;}#nvg2 a { display:block;}#nvg2 a:link,#nvg2 a:visited { color: #4D4D4D; text-decoration: none; padding: 2px 10px 2px 5px; margin: 0px 0px 0px 25px;}#nvg2 a:hover { text-decoration: none;}
+/* Caution! Ensure accessibility in print and other media types... */@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */    .ui-tabs-hide {        display: none;    }}/* Hide useless elements in print layouts... */@media print {    .ui-tabs-nav {        display: none;    }}/* Skin */.ui-tabs-nav {    font-size: 12px;    color: #444444;    font-family: Arial, Helvetica, sans-serif;    background:#FFF url("images/tab_bkg.gif"/*tpa=http://www.digitalpersona.com/images/tab_bkg.gif*/) repeat-x bottom;}/* LEFT INDENT TO TABS */.ui-tabs-nav {     list-style: none;    margin: 0px 0px 0px 0px;    padding: 0px 0px 0px 10px;}.ui-tabs-nav:after {     /* clearing without presentational markup, IE gets extra treatment */    display: block;    clear: both;    content: " ";}/* SPACING IN BETWEEN TABS */.ui-tabs-nav li {     float: left;    background:url("images/tab_off_left.gif"/*tpa=http://www.digitalpersona.com/images/tab_off_left.gif*/) no-repeat left top;    padding: 0px 0px 0px 8px;    margin:  0px 0px 0px 5px;    /* min-width: 100px;  be nice to Opera */}/* SPACING INSIDE TABS */.ui-tabs-nav a, .ui-tabs-nav a span {     padding:2px 8px 2px 0px;    background:url("images/tab_off_right.gif"/*tpa=http://www.digitalpersona.com/images/tab_off_right.gif*/) no-repeat right top;     display: block;    margin: -2px 0px 0px 0px;}/* UNSELECTED TEXT */.ui-tabs-nav a {     margin: 0px 0px 0px 0px; /* position: relative makes opacity fail for disabled tab in IE */    color: #444444;    text-align: left;    text-decoration: none;    white-space: nowrap; /* required in IE 6 */    outline: 0; /* prevent dotted border in Firefox */}/* SELECTED TEXT */.ui-tabs-nav .ui-tabs-selected a {     background:url("images/tab_on_right.gif"/*tpa=http://www.digitalpersona.com/images/tab_on_right.gif*/) no-repeat right top;    position: relative;    z-index: 2;    margin-top: 0px;    color: #444444;}.ui-tabs-nav li.ui-tabs-selected {    background:url("images/tab_on_left.gif"/*tpa=http://www.digitalpersona.com/images/tab_on_left.gif*/) no-repeat left top;}.ui-tabs-nav a span {    /* width: 64px;  IE 6 treats width as min-width     min-width: 64px; */    height: 18px;     /* IE 6 treats height as min-height */    min-height: 18px;}*>.ui-tabs-nav a span {     /* hide from IE 6 */    width: auto;    height: auto;}/* BOTTOM PADDING */.ui-tabs-nav .ui-tabs-selected a span { }.ui-tabs-nav .ui-tabs-selected a, .ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active {    background-color: #FFFFFF;    text-decoration: none;    color: #333;}.ui-tabs-nav a, .ui-tabs-nav .ui-tabs-disabled a:hover, .ui-tabs-nav .ui-tabs-disabled a:focus, .ui-tabs-nav .ui-tabs-disabled a:active {    background-color: #FFFFFF;    text-decoration: none;    color: #095BA7;}.ui-tabs-nav .ui-tabs-selected a span, .ui-tabs-nav a:hover span, .ui-tabs-nav a:focus span, .ui-tabs-nav a:active span {    background-color: #FFFFFF;    text-decoration: none;    color: #095BA7;}.ui-tabs-nav a span, .ui-tabs-nav .ui-tabs-disabled a:hover span, .ui-tabs-nav .ui-tabs-disabled a:focus span, .ui-tabs-nav .ui-tabs-disabled a:active span {    background-color: #FFFFFF;    text-decoration: none;    color: #095BA7;}.ui-tabs-nav .ui-tabs-selected a:link, .ui-tabs-nav .ui-tabs-selected a:visited, .ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav.ui-tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */    cursor: text;}.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active,.ui-tabs-nav .ui-tabs-unselect a:hover, .ui-tabs-nav .ui-tabs-unselect a:focus, .ui-tabs-nav .ui-tabs-unselect a:active {     /* @ Opera, we need to be explicit again here now... */    cursor: pointer;}.ui-tabs-disabled {    opacity: .4;    filter: alpha(opacity=40);}.ui-tabs-panel {    background: #FFFFFF; /* declare background color for container to avoid distorted fonts in IE while fading */    font-family: Arial, Helvetica, sans-serif;    font-size:11px;    color: #333333;    line-height:15px;    border-top-width: 0px;    border-left-width: 0px;    border-right-width: 0px;    border-bottom-width: 0px;    border-style: solid;    border-color: #777777;    padding-top: 15px;    padding-bottom: 15px;    padding-left: 0px;    padding-right: 0px;}.ui-tabs-panel td {  font-family: Arial, Helvetica, sans-serif;  font-size:11px;  color: #333333;  line-height:15px;}.ui-tabs-loading em {    padding: 0px 0px 0px 20px;}/* Additional IE specific bug fixes... */* html .ui-tabs-nav {     /* auto clear, @ IE 6 & IE 7 Quirks Mode */    display: inline-block;}*:first-child+html .ui-tabs-nav  {     /* @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)... */    display: inline-block;}
